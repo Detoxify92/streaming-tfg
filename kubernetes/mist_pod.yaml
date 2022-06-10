@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mistserver-pod
+spec:
+  containers:
+    - name: mist-server
+      image: ddvtech/mistserver:latest
+      ports:
+      - containerPort: 8080
+        hostPort: 8080
+      - containerPort: 4242
+        hostPort: 4242
+      - containerPort: 1935
+        hostPort: 1935
+      volumeMounts:
+      - name: videos
+        mountPath: /video
+      - name: dshm
+        mountPath: /dev/shm
+  volumes:
+    - name: videos
+      hostPath:
+        path: /videos
+    - name: dshm
+      emptyDir:
+        medium: Memory

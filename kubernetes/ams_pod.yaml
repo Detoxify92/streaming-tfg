@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ams-pod
+spec:
+  containers:
+    - name: antmedia
+      image: antmediaserver:latest
+      imagePullPolicy: Never
+      ports:
+      - containerPort: 5080
+        hostPort: 5080
