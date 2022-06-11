@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: nginx-vod
-      image: prueba:latest
+      image: nginx-vod:latest
       imagePullPolicy: Never
       ports:
       - containerPort: 80
