@@ -10,3 +10,5 @@ spec:
       ports:
       - containerPort: 5080
         hostPort: 5080
+      - containerPort: 1935
+        hostPort: 1935
