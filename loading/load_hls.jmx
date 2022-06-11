@@ -18,7 +18,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">5</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -32,7 +32,7 @@
           </elementProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <stringProp name="HLS.URL_DATA">http://duck.com:8080/index.m3u8</stringProp>
+          <stringProp name="HLS.URL_DATA">http://192..168.49.2:8080/mist/index.m3u8</stringProp>
           <boolProp name="HLS.DURATION">false</boolProp>
           <stringProp name="HLS.SECONDS_DATA"></stringProp>
           <stringProp name="HLS.AUDIO_LANGUAGE"></stringProp>
