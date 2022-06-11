@@ -32,7 +32,7 @@
           </elementProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <stringProp name="HLS.URL_DATA">http://192..168.49.2:8080/mist/index.m3u8</stringProp>
+          <stringProp name="HLS.URL_DATA">http://192.168.49.2:8080/mist/index.m3u8</stringProp>
           <boolProp name="HLS.DURATION">false</boolProp>
           <stringProp name="HLS.SECONDS_DATA"></stringProp>
           <stringProp name="HLS.AUDIO_LANGUAGE"></stringProp>
