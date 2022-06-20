@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: mist-server
-      image: ddvtech/mistserver:latest
+      image: ddvtech/mistserver:3.0
       ports:
       - containerPort: 8080
         hostPort: 8080
